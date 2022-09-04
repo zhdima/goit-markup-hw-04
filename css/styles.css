@@ -260,10 +260,11 @@ img {
 }
 
 .advs-item-header {
+  height: 120px;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--grey-bg-color);
 }
 
@@ -380,8 +381,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  height: 92px;
   color: var(--icons-main-color);
   background-color: var(--main-bg-color);
   border: 1px solid currentColor;
